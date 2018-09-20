@@ -1,6 +1,6 @@
 {
   "name": "revgeo-indonesia",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Reverse geocoding of administration area in Indonesia",
   "main": "index.js",
   "scripts": {
