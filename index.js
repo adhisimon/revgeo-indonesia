@@ -3,8 +3,8 @@
 const config = require('./config');
 const dsGoogle = require('./lib/datasources/google');
 
-module.exports = function(latitude, longitude, cb) {
-    dsGoogle.search(latitude, longitude, function(err, result) {
+module.exports = function(latitude, longitude, options, cb) {
+    dsGoogle.reverse(latitude, longitude, options, function(err, result) {
         cb(err, result);
     })
 }
