@@ -30,6 +30,10 @@ describe('#main', function() {
                 result.district.long_name.should.equal('Cempaka Putih');
             })
 
+            it('should return correct kelurahan', function() {
+                result.kelurahan.long_name.should.equal('Cempaka Putih Timur');
+            })
+
         })
 
     })
