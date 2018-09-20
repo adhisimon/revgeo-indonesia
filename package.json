@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/adhisimon/revgeo-indonesia/issues"
   },
-  "homepage": "https://github.com/adhisimon/revgeo-indonesia#readme"
+  "homepage": "https://github.com/adhisimon/revgeo-indonesia#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
 }
