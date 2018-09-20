@@ -1,3 +1,7 @@
 Reverse geocoding of administration area in Indonesia
 
-Supported data source: Google Geocoding API
+Supported data source:
+* Google Geocoding API (https://developers.google.com/maps/documentation/geocoding/start)
+
+Planned support data source:
+* Nomatim
