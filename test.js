@@ -6,7 +6,7 @@ const dsGoogle = require('./lib/datasources/google');
 
 const patra2 = require('./test-data/google-komplek-patra2.json');
 
-describe('#main', function() {
+describe('#datasources', function() {
 
     describe('#google', function() {
 
@@ -40,6 +40,17 @@ describe('#main', function() {
 
         })
 
+    })
+
+})
+
+describe('#main', function() {
+
+    it('should return correct country', function(done) {
+        revgeo('-6.175110', '106.865039', {key: process.env.GOOGLE_DEV_KEY}, function(err, result) {
+            result.country.name.should.equal('Indonesia');
+            done();
+        })
     })
 
 })
