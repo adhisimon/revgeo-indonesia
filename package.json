@@ -1,0 +1,25 @@
+{
+  "name": "revgeo-indonesia",
+  "version": "0.1.0",
+  "description": "Reverse geocoding of administration area in Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhisimon/revgeo-indonesia.git"
+  },
+  "keywords": [
+    "geocoding",
+    "geolocation",
+    "reverse",
+    "indonesia"
+  ],
+  "author": "Adhidarma Hadiwinoto <me@adhisimon.org>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/adhisimon/revgeo-indonesia/issues"
+  },
+  "homepage": "https://github.com/adhisimon/revgeo-indonesia#readme"
+}
