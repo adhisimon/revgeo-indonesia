@@ -34,6 +34,10 @@ describe('#main', function() {
                 result.kelurahan.name.should.equal('Cempaka Putih Timur');
             })
 
+            it('should return correct postal code', function() {
+                result.postal_code.should.equal('10510');
+            })
+
         })
 
     })
