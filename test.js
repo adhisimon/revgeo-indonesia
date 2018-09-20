@@ -15,23 +15,23 @@ describe('#main', function() {
             const result = dsGoogle.parse(patra2);
 
             it('should return correct country', function() {
-                result.country.long_name.should.equal('Indonesia');
+                result.country.name.should.equal('Indonesia');
             })
 
             it('should return correct province', function() {
-                result.province.long_name.should.equal('Daerah Khusus Ibukota Jakarta');
+                result.province.name.should.equal('Daerah Khusus Ibukota Jakarta');
             })
 
             it('should return correct city or regency', function() {
-                result.city_or_regency.long_name.should.equal('Kota Jakarta Pusat');
+                result.city_or_regency.name.should.equal('Kota Jakarta Pusat');
             })
 
             it('should return correct district', function() {
-                result.district.long_name.should.equal('Cempaka Putih');
+                result.district.name.should.equal('Cempaka Putih');
             })
 
             it('should return correct kelurahan', function() {
-                result.kelurahan.long_name.should.equal('Cempaka Putih Timur');
+                result.kelurahan.name.should.equal('Cempaka Putih Timur');
             })
 
         })
